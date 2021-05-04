@@ -51,8 +51,10 @@ this->ordinamento();
 }
 
 void stampaclassifica(veicolo**veicoli){
+	int pos=1;
 	 for(int i=numeroiscritti-1; i>=0; i--){
-	 	cout<<"mergesort:"<<" "<<*veicoli[i]<<endl;
+	 	cout<<"posizione:"<<pos<<" "<<*veicoli[i]<<endl;
+	 	pos++;
 		
 }
 }
